@@ -20,7 +20,7 @@ public class PlayerHelper {
 	static EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("BaseballPlayersConsole");
 
 	public PlayerHelper() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	public void insertPlayer(Player player)
