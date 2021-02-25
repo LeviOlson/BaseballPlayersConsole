@@ -10,11 +10,11 @@
 </head>
 <body>
 <form action = "editPlayerServlet" method="post">
-fname: <input type ="text" name = "First name" value=
+First Name: <input type ="text" name = "First name" value=
 "${toEdit.FName}">
-lname: <input type ="text" name = "Last name" value=
+Last Name: <input type ="text" name = "Last name" value=
 "${toEdit.LName}">
-num: <input type ="text" name = "Number" value=
+Number: <input type ="text" name = "Number" value=
 "${toEdit.number}">
 <input type = "hidden" name = "id" value="${toEdit.id}">
 <input type = "submit" value="Save Edited Player">
