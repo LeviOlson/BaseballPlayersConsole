@@ -17,7 +17,7 @@ import model.Player;
 
 public class PlayerHelper {
 	
-	static EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("BaseballPlayersConsole");
+	static EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("BaseballPlayersWeb");
 
 	public PlayerHelper() {
 		

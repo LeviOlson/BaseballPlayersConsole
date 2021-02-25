@@ -62,7 +62,7 @@ public class Player {
 	
 	public String toString()
 	{
-		return "Number " + number + ", " + fname + " " + lname;
+		return "Number " + number + ", " + fname + " " + lname + ", ID " + id;
 	}
 	
 }
