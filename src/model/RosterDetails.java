@@ -71,7 +71,7 @@ public class RosterDetails {
 		return listOfPlayers;
 	}
 
-	public void setListOfPlayers(List<Player> setListOfPlayers) {
+	public void setListOfPlayers(List<Player> listOfPlayers) {
 		this.listOfPlayers = listOfPlayers;
 	}
 

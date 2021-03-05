@@ -20,7 +20,7 @@
 				<c:forEach var="rosterVal" items="${currentroster.listOfPlayers}">
 					<tr>
 						<td></td>
-						<td colspan="3">${rosterVal.number}, ${rosterVal.FName}, ${rosterVal.LName} }</td>
+						<td colspan="3">${rosterVal.number}, ${rosterVal.FName}, ${rosterVal.LName}</td>
 					</tr>
 				</c:forEach>
 			</c:forEach>
