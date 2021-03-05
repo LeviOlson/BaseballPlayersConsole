@@ -47,7 +47,7 @@ public class EditPlayerServlet extends HttpServlet {
 		}
 		
 		//redirect to player list
-		getServletContext().getRequestDispatcher("/viewAllServlet").forward(request, response);
+		getServletContext().getRequestDispatcher("/viewAllPlayersServlet").forward(request, response);
 	}
 
 }

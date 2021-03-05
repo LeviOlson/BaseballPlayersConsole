@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import model.Player;
 
-@WebServlet(name = "viewAllServlet", urlPatterns = { "/viewAllServlet" })
+@WebServlet(name = "viewAllPlayersServlet", urlPatterns = { "/viewAllPlayersServlet" })
 public class ViewAllIServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

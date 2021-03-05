@@ -22,7 +22,7 @@ public class NavigationServlet extends HttpServlet {
 		String act = request.getParameter("doThisToPlayer");
 		// after all changes, we should redirect to the viewAllServlet
 		// The only time we don't is if they select to add a new player or edit
-		String path = "/viewAllServlet";
+		String path = "/viewAllPlayersServlet";
 		
 		PlayerHelper dao = new PlayerHelper();		
 		
